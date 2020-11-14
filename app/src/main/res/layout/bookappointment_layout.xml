@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+
+        android:text="Your health is our responsibility" />
+
+    <Button
+        android:id="@+id/appointmentdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Date" />
+
+    <Button
+        android:id="@+id/appointmenttime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Time" />
+
+    <Button
+        android:id="@+id/appointmentplace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select place" />
+</LinearLayout>
